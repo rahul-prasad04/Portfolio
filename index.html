@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/51309e906d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#internship">Internship & Hackathon Projects</a></li>
+                    <li><a href="#project"> My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I am <br><span>Rahul Prasad </span>from<br>Kolkata, West Bengal</h1>
+                <br>
+                <h3>Pursuing B.Tech CSE (AI & ML)<br>3rd-Year Student @Brainware University<br>Barasat, Kolkata.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me!</h1>
+                    <br>
+                    <p>Hi, I'm Rahul Prasad, a passionate B.Tech CSE student specializing in AI and ML at Brainware
+                        University. With a knack for
+                        solving real-world problems through technology, I focus on creating dynamic and impactful
+                        projects that integrate Python
+                        programming, web development, and AI/ML concepts.<br>
+                        <br>
+                        I thrive on developing user-centric applications and constantly challenge myself to explore new
+                        opportunities for
+                        learning and innovation. My work ethic revolves around collaboration, attention to detail, and a
+                        drive to contribute to
+                        meaningful projects.<br>
+                        <br>
+                        When I'm not coding, you’ll find me brainstorming ideas for my next project, refining my skills,
+                        or collaborating with
+                        like-minded individuals. Let’s connect and turn ideas into impactful solutions!<br>
+                        <br>
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Python (Intermediate)<br>Java (Basic)<br>C
+                                Programming (Basic)</li>
+                            <li><span>Web Development</span><br>HTML, CSS & JavaScript<br>Responsive Design</li>
+                            <li><span>AI & Machine Learning</span><br>Machine Learning (TensorFlow basics)<br>
+                                AI Project Integration</li>
+                            <li><span>Database Management</span><br>SQL/MYSQL: Intermediate (skilled in writing queries,
+                                managing databases, and using joins and indexes)</li>
+                            <li><span>Tools & Platforms</span><br>Git & GitHub (Version Control)<br>IDEs: VS Code,
+                                IDLE (Python)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>January 2025</span><br>Python Developer Intern
+                                @CodeSoft (Virtual Internship)</li>
+                            <li><span>September 2024</span><br>Smart India Hackathon 2024 Participant @Brainware
+                                University</li>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>August 2022 – July 2026</span><br>Bachelor of Technology in Computer Science &
+                                Engineering - AIML from Brainware University, Barasat, Kolkata.</li>
+                            <li><span>March 2022</span><br>Higher Secondary Certificate, Science from Kendriya Vidyalaya
+                                Panagarh.</li>
+                            <li><span>March 2020</span><br>Matriculation Certificate, Science from Kendriya Vidyalaya
+                                Panagarh.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="internship">
+        <div class="container">
+            <h1 class="sub-title">Internship & Hackathon Projects!</h1>
+            <div class="internship-list">
+                <div>
+                    <i class="fa-solid fa-square-root-variable"></i>
+                    <h2>Simple Calculator</h2>
+                    <p>A simple calculator that performs basic arithmetic operations such as addition, subtraction,
+                        multiplication, and
+                        division.<br>
+                        <br>
+                        This project, along with two others, was completed as part of the requirements
+                        of a virtual internship @CodSoft.
+                    </p>
+                    <a
+                        href="https://www.linkedin.com/posts/rahul-prasad04_python-tkinter-codsoft-activity-7287704276066291712-WlHi?utm_source=share&utm_medium=member_desktop">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-table"></i>
+                    <h2>Password Generator</h2>
+                    <p>A tool to generate strong and secure passwords for users based on their preferences.<br>
+                        <br>
+                        This project, along with two others, was completed as part of the requirements
+                        of a virtual internship @CodSoft.<br><br> Watch out the demo video!
+                        <br>
+
+                    </p>
+                    <a href="https://drive.google.com/file/d/1t8Ku1DgzTyXM0hSyKixfKLYCuDeldIMK/view?usp=drivesdk">Click
+                        Here</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <br>
+                    <br>
+                    <h2>Tourdost</h2>
+                    <br>
+                    <p>Tourdost is a collaborative website designed to make travel planning easy and exciting.<br>
+                        <br>
+                        Developed
+                        during the Internal Hackathon 2024 (Smart India Hackathon 2024) alongside my amazing team of 6
+                        members from Brainware
+                        University .
+                        <br>
+
+                    </p>
+                    <a
+                        href="https://www.linkedin.com/posts/rahul-prasad04_participation-certificate-sih-2024-activity-7284922434556682240-3xV3?utm_source=share&utm_medium=member_desktop">Learn
+                        more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Projects!</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/p1.jpg">
+                    <div class="layer">
+                        <h3>Check the Weather</h3>
+                        <p>A simple and responsive weather application that provides real-time weather updates and
+                            forecasts for any city worldwide.
+                        </p>
+                        <a href="https://rahul-prasad04.github.io/Check-the-weather/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/rahul-prasad04/Check-the-weather"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p2.jpg">
+                    <div class="layer">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>Tic Tac Toe is a simple and interactive game built using HTML, CSS, and JavaScript. This
+                            project demonstrates a classic
+                            gameplay experience where a single player competes against a basic AI opponent.
+                        </p>
+                        <a href="https://rahul-prasad04.github.io/Tic-Tac-Toe-Game/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/rahul-prasad04/Tic-Tac-Toe-Game"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p3.jpg">
+                    <div class="layer">
+                        <h3>Rock Paper Scissors Game</h3>
+                        <p>This is a graphical version of the classic "Rock, Paper, Scissors" game built using Python
+                            and the Tkinter library.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1rj-mWw7bwIBPaTl163eLPRFElaRXRuJv/view?usp=drivesdk"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/rahul-prasad04/Rock-Paper-Scissors-Game"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://linktr.ee/rahul_projects" class="btn">See all Projects!</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me!</h1>
+                    <p><i class="fas fa-envelope"></i>rahulprasad0804@gmail.com</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rahul-prasad04"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/rahul04prasad"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/Rahul_prasad04?t=JAIc6mxorkYMB89oMaPSDQ&s=09"><i
+                                class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/rahulprasad04"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/rahul-prasad04"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="images/rahul-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">
+                            <span class="button-text">Submit</span>
+                            <div class="dot-spinner">
+                                <div class="dot-spinner__dot"></div>
+                                <div class="dot-spinner__dot"></div>
+                                <div class="dot-spinner__dot"></div>
+                                <div class="dot-spinner__dot"></div>
+                                <div class="dot-spinner__dot"></div>
+                                <div class="dot-spinner__dot"></div>
+                                <div class="dot-spinner__dot"></div>
+                                <div class="dot-spinner__dot"></div>
+                            </div>
+                        </button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Rahul Prasad 2025. All rights reserved.</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxkObhoJ44DtqVam0pu-M25lu4lFZVE0oAqfE_BFK7bQIOx6bOfdm9WW1VBkBQ4YsZrqg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        const submitButton = form.querySelector('button[type="submit"]')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            submitButton.classList.add('loading')
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                    submitButton.classList.remove('loading')
+                })
+                .catch(error => {
+                    console.error('Error!', error.message)
+                    submitButton.classList.remove('loading')
+                })
+        })
+    </script>
+</body>
+
+</html>
